@@ -17,7 +17,7 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 350px 3fr 1fr;
+    grid-template-columns: 350px 5fr 2fr;
     grid-template-rows: 200px 2fr 2fr;
 }
 
@@ -123,6 +123,7 @@ body{
     align-items: center;
     justify-content: flex-end;
     gap: 30px;
+    font-size: 1.2em;
 }
 
 .profilebar-img{
@@ -176,13 +177,70 @@ body{
 
 .projects{
     grid-row: 2 / 4;
-
     background-color: rgb(150, 150, 150);
+    padding: 1em;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.card-project{
+    background-color: rgb(222, 222, 222);
+    padding: 1em;
+    border-radius: 10px;
+    border-left: 10px solid #5800db;
 }
 
 .sidebar{
     grid-row: 2 / 4;
-
     background-color: rgb(150, 150, 150);
+    padding: 1em;
+    padding-right: 3em;
 }
 
+.card-sidebar{
+    background-color: rgb(222, 222, 222);
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.announcements{
+    width: 90%;
+}
+
+.accounts{
+    align-items: flex-start;
+}
+
+.trending{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.trending img{
+    height: 5em;
+    border-radius: 100px;
+}
+
+.trending-info{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.trending-info p{
+    margin: 0;
+}
+
+hr{
+    width: 90%;
+    opacity: 60%;
+}
