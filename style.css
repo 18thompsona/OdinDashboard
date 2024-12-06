@@ -183,7 +183,7 @@ body{
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 10px;
 }
 
@@ -192,6 +192,17 @@ body{
     padding: 1em;
     border-radius: 10px;
     border-left: 10px solid #5800db;
+}
+
+.card-project img{
+    width: 2em;
+    opacity: 70%;
+    align-items: flex-end;
+}
+
+.card-actions{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .sidebar{
