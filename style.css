@@ -1,0 +1,188 @@
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 800 */
+
+.sora-400 {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    margin: 0;
+    color: black;
+    font-family: Sora, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 350px 3fr 1fr;
+    grid-template-rows: 200px 2fr 2fr;
+}
+
+.nav{
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    color: white;
+
+    background-color: hsl(198, 100%, 36%);
+    box-shadow: 1px 0px 2px rgb(70, 70, 70);
+    z-index: 3;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo{
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .3em;
+}
+
+.logo img{
+    height: 1.5em;
+    filter: invert(1);
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.nav ul li{
+    list-style: none;
+    font-size: 1.5em;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks-img{
+    height: 1.3em;
+    filter: invert(1);
+}
+
+.topbar{
+    grid-column: 2 / 4;
+
+    background-color: rgb(222, 222, 222);
+    box-shadow: 0px 2px 5px rgb(70, 70, 70);
+    z-index: 2;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.topbar-left{
+    position: relative;
+    left: 40px;
+}
+
+.topbar-right{
+    position: relative;
+    right: 50px;
+}
+
+.search{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    position: relative;
+    left: 40px;
+}
+
+.search-bar{
+    width: 80%;
+    height: 2em;
+    background-color: white;
+    border-radius: 30px;
+
+}
+
+.search img{
+    height: 2em;
+}
+
+.profilebar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.profilebar-img{
+    height: 2em;
+    border-radius: 100px;
+}
+
+.profile{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    position: relative;
+    left: 40px;
+}
+
+.profile img{
+    height: 5em;
+    border-radius: 100px;
+}
+
+#profile-info{
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-small{
+    font-size: .8em;
+}
+
+#profile-name{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.action-button{
+    height: 2.5em;
+    width: 6em;
+    border: none;
+    border-radius: 100px;
+    background-color: hsl(198, 100%, 43%);
+    color: white;
+    font-size: 20px;
+}
+
+.projects{
+    grid-row: 2 / 4;
+
+    background-color: rgb(150, 150, 150);
+}
+
+.sidebar{
+    grid-row: 2 / 4;
+
+    background-color: rgb(150, 150, 150);
+}
+

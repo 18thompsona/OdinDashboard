@@ -8,122 +8,130 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="nav">
-            <span id="logo">Dashboard</span>
-            <ul>
-                <li><img src="" alt="" class="navlinks-img"><a href="#" class="links">Home</a></li>
-                <li><img src="" alt="" class="navlinks-img"><a href="#" class="links">Profile</a></li>
-                <li><img src="" alt="" class="navlinks-img"><a href="#" class="links">Messages</a></li>
-                <li><img src="" alt="" class="navlinks-img"><a href="#" class="links">History</a></li>
-                <li><img src="" alt="" class="navlinks-img"><a href="#" class="links">Tasks</a></li>
-                <li><img src="" alt="" class="navlinks-img"><a href="#" class="links">Communities</a></li>
-            </ul>
-
-            <ul>
-                <li><img src="" alt="" class="navlinks-img"><a href="#" class="links">Settings</a></li>
-                <li><img src="" alt="" class="navlinks-img"><a href="#" class="links">Support</a></li>
-                <li><img src="" alt="" class="navlinks-img"><a href="#" class="links">Privacy</a></li>
-            </ul>
-        </div>
-
-        <div class="topbar">
-            <div class="search">
-                <img src="" alt="">
-                <div class="search-bar"></div>
+        <div class="container">
+            <div class="nav">
+                <span class="logo"><img src="img/clouds.svg" alt="">Dashboard</span>
+                <ul>
+                    <li><img src="img/home.svg" alt="" class="navlinks-img"><a href="#" class="links">Home</a></li>
+                    <li><img src="img/account-box.svg" alt="" class="navlinks-img"><a href="#" class="links">Profile</a></li>
+                    <li><img src="img/message.svg" alt="" class="navlinks-img"><a href="#" class="links">Messages</a></li>
+                    <li><img src="img/timer-sand-empty.svg" alt="" class="navlinks-img"><a href="#" class="links">History</a></li>
+                    <li><img src="img/list-box.svg" alt="" class="navlinks-img"><a href="#" class="links">Tasks</a></li>
+                    <li><img src="img/account-group.svg" alt="" class="navlinks-img"><a href="#" class="links">Communities</a></li>
+                </ul>
+    
+                <ul>
+                    <li><img src="img/cog.svg" alt="" class="navlinks-img"><a href="#" class="links">Settings</a></li>
+                    <li><img src="img/face-agent.svg" alt="" class="navlinks-img"><a href="#" class="links">Support</a></li>
+                    <li><img src="img/lock.svg" alt="" class="navlinks-img"><a href="#" class="links">Privacy</a></li>
+                </ul>
             </div>
-
-            <div class="profilebar">
-                <img class="profilebar-img" src="" alt="">
-                <img class="profilebar-img" src="" alt="">
-                Morgan Oakley
-            </div>
-
-            <div class="profile">
-                <img class="profile-img" src="" alt="">
-                Hi there,
-                Morgan Oakley (@morgan)
-            </div>
-
-            <div class="actions">
-                <button class="action-button">New</button>
-                <button class="action-button">Upload</button>
-                <button class="action-button">Share</button>
-            </div>
-        </div>
-
-        <div class="projects">
-            <h1>Your projects</h1>
-            <div class="card-project">
-                <h2>Project Name Here</h2>
-                <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
-            </div>
-
-            <div class="card-project">
-                <h2>Project Name Here</h2>
-                <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
-            </div>
-
-            <div class="card-project">                
-                <h2>Project Name Here</h2>
-                <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
-            </div>
-
-            <div class="card-project">                
-                <h2>Project Name Here</h2>
-                <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
-            </div>
-            
-            <div class="card-project">                
-                <h2>Project Name Here</h2>
-                <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
-            </div>
-
-            <div class="card-project">                
-                <h2>Project Name Here</h2>
-                <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
-            </div>
-        </div>
-
-        <div class="sidebar">
-            <h1>Announcements</h1>
-            <div class="card-sidebar">
-                <div class="announcements">
-                    <h3>New Updates</h3>
-                    <p class="text-sidebar">Lorem ipsum odor amet, consectetuer adipiscing elit. Curae lobortis sem egestas ultricies quisque scelerisque lorem duis ante ad donec facilisis; hac semper molestie mollis eleifend.</p>
+    
+            <div class="topbar">
+                <div class="search topbar-left">
+                    <img src="img/magnify.svg" alt="">
+                    <div class="search-bar"></div>
                 </div>
-                <div class="announcements">
-                    <h3>Dog's Name</h3>
-                    <p class="text-sidebar">Lorem ipsum odor amet, consectetuer adipiscing elit. Curae lobortis sem egestas ultricies quisque scelerisque lorem duis ante ad donec facilisis; hac semper molestie mollis eleifend.</p>
+    
+                <div class="profilebar topbar-right">
+                    <img class="profilebar-img" src="img/bell-ring.svg" alt="">
+                    <img class="profilebar-img" src="img/CloudBoy.png" alt="">
+                    Morgan Oakley
                 </div>
-                <div class="announcements">
-                    <h3>Site Maintenance</h3>
-                    <p class="text-sidebar">Lorem ipsum odor amet, consectetuer adipiscing elit. Curae lobortis sem egestas ultricies quisque scelerisque lorem duis ante ad donec facilisis; hac semper molestie mollis eleifend.</p>
+    
+                <div class="profile topbar-left">
+                    <img class="profile-img" src="img/CloudBoy.png" alt="">
+                    <div id="profile-info">
+                        <span id="profile-small">Hi there,</span>
+                        <span id="profile-name">Hap Ulus (@Hapulus)</span>
+                    </div>
+                </div>
+    
+                <div class="actions topbar-right">
+                    <button class="action-button">New</button>
+                    <button class="action-button">Upload</button>
+                    <button class="action-button">Share</button>
                 </div>
             </div>
-
-            <h1>Trending</h1>
-            <div class="card-sidebar">
-                <div class="trending">
-                    <img src="" alt="" class="trending-img">
-                    <p class="handle">@Coolguy</p>
-                    <p class="handle-text">Guy Who Is Cool</p>
+    
+            <div class="projects">
+                <h1>Your projects</h1>
+                <div class="card-project">
+                    <h2>Project Name Here</h2>
+                    <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
                 </div>
-                <div class="trending">
-                    <img src="" alt="" class="trending-img">
-                    <p class="handle">@CloudHappy</p>
-                    <p class="handle-text">Cloud In Sky</p>
+    
+                <div class="card-project">
+                    <h2>Project Name Here</h2>
+                    <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
                 </div>
-                <div class="trending">
-                    <img src="" alt="" class="trending-img">
-                    <p class="handle">@CaramelCream</p>
-                    <p class="handle-text">Sweet Tasty</p>
+    
+                <div class="card-project">                
+                    <h2>Project Name Here</h2>
+                    <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
                 </div>
-                <div class="trending">
-                    <img src="" alt="" class="trending-img">
-                    <p class="handle">@Alex</p>
-                    <p class="handle-text">Dude</p>
+    
+                <div class="card-project">                
+                    <h2>Project Name Here</h2>
+                    <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
+                </div>
+                
+                <div class="card-project">                
+                    <h2>Project Name Here</h2>
+                    <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
+                </div>
+    
+                <div class="card-project">                
+                    <h2>Project Name Here</h2>
+                    <p>Some project text here to fill some space in order to load things that should go here to make things look good and tasty mmmmmm I now going to stop typing.</p>
+                </div>
+            </div>
+    
+            <div class="sidebar">
+                <h1>Announcements</h1>
+                <div class="card-sidebar">
+                    <div class="announcements">
+                        <h3>New Updates</h3>
+                        <p class="text-sidebar">Lorem ipsum odor amet, consectetuer adipiscing elit. Curae lobortis sem egestas ultricies quisque scelerisque lorem duis ante ad donec facilisis; hac semper molestie mollis eleifend.</p>
+                    </div>
+                    <div class="announcements">
+                        <h3>Dog's Name</h3>
+                        <p class="text-sidebar">Lorem ipsum odor amet, consectetuer adipiscing elit. Curae lobortis sem egestas ultricies quisque scelerisque lorem duis ante ad donec facilisis; hac semper molestie mollis eleifend.</p>
+                    </div>
+                    <div class="announcements">
+                        <h3>Site Maintenance</h3>
+                        <p class="text-sidebar">Lorem ipsum odor amet, consectetuer adipiscing elit. Curae lobortis sem egestas ultricies quisque scelerisque lorem duis ante ad donec facilisis; hac semper molestie mollis eleifend.</p>
+                    </div>
+                </div>
+    
+                <h1>Trending</h1>
+                <div class="card-sidebar">
+                    <div class="trending">
+                        <img src="" alt="" class="trending-img">
+                        <p class="handle">@Coolguy</p>
+                        <p class="handle-text">Guy Who Is Cool</p>
+                    </div>
+                    <div class="trending">
+                        <img src="" alt="" class="trending-img">
+                        <p class="handle">@CloudHappy</p>
+                        <p class="handle-text">Cloud In Sky</p>
+                    </div>
+                    <div class="trending">
+                        <img src="" alt="" class="trending-img">
+                        <p class="handle">@CaramelCream</p>
+                        <p class="handle-text">Sweet Tasty</p>
+                    </div>
+                    <div class="trending">
+                        <img src="" alt="" class="trending-img">
+                        <p class="handle">@Alex</p>
+                        <p class="handle-text">Dude</p>
+                    </div>
                 </div>
             </div>
         </div>
